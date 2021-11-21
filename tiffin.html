@@ -1,0 +1,166 @@
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+		<script src="index.js"></script>
+		<script src="dropdown.js"></script>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+		<style>
+			@media print {
+				body * {
+					visibility: hidden;
+				}
+	
+				body {
+					-webkit-print-color-adjust: exact !important;
+				}
+	
+				.print-container,
+				.print-container * {
+					visibility: visible;
+	
+				}
+	
+				@page {
+					size: A4;
+					size: auto;
+				}
+			}
+	
+			* {
+				-webkit-print-color-adjust: exact !important;
+				color-adjust: exact !important;
+			}
+	
+	
+			body {
+				background: url("template.jpeg") no-repeat center center scroll !important;
+				background-size: 100% 100% !important;
+				font-weight: bold;
+				font-size: 22px;
+			}
+	
+			body {
+				-webkit-print-color-adjust: exact !important;
+			}
+	
+			span {
+				color: green !important;
+				display: inline;
+			}
+	
+			.container {
+				padding-top: 48%;
+				padding-left: 20%;
+				padding-right: 20%;
+				padding-bottom: 10%;
+				align-content: center;
+				
+			}
+	
+			@media screen and (max-width: 900px) {
+				.container {
+					padding-top: 300px;
+				}
+			}
+	
+			#msg1,
+			#msg2,
+			#msg3,
+			#msg4,
+			#msg5,
+			#msg6 {
+				color:red !important;
+			}
+	
+			.mem {
+				text-align: center;
+				color: green !important;
+			}
+	
+			.sel {
+				display: show;
+			}
+	
+			.msg {
+				display: block;
+			}
+		</style>
+	
+	</head>
+	
+
+<body onload="populateSelect()">
+
+	<div class="container">
+
+		<div class="mem print-container">
+			MEMBERS: <input type="text" name="members" id="members" />
+
+		</div>
+
+
+		<div class="tiffin">
+			<br>
+			<span class="print-container"><b>TIFFIN</b> </span>
+			<INPUT type="button" value="Add Row" class="btn btn-danger" onclick="addRow('tiffin_dataTable')" />
+
+
+			<INPUT type="button" value="Delete Row" class="btn btn-primary" onclick="deleteRow('tiffin_dataTable')" />
+
+			<TABLE id="tiffin_dataTable" class="table-condensed">
+				<TR>
+					<TD><INPUT type="checkbox" name="chk" /></TD>
+					<TD>
+						<select class="sel sel3">
+							<option value="12">-- Select --</option>
+
+						</select>
+					</TD>
+				</TR>
+			</TABLE>
+			<div id="msg3" class="print-container"></div>
+			<INPUT type="button" id="button3" class="btn btn-danger" value="submit" onclick="show3()" />
+
+		</div>
+		<script>
+			function show3() {
+				// GET THE SELECTED VALUE FROM <select> ELEMENT AND SHOW IT.
+				var ele = document.getElementsByClassName('sel3');
+				console.ele
+				console.log(ele)
+				for (var j = 0; j < ele.length; j++) {
+					element = ele.item(j);
+					var msg = document.getElementById('msg3');
+					if (element.options[element.selectedIndex].text.localeCompare("-- Select --") != 0) {
+						msg.innerHTML = msg.innerHTML + element.options[element.selectedIndex].text + '</br>';
+					}
+				}
+				var x = document.getElementById('tiffin_dataTable');
+				x.style.display = "none";
+
+				document.getElementById("button3").style.display = "none";
+			}
+		</script>
+
+
+		<div>
+			<br>
+			<button class="btn btn-warning" onclick="window.print()">Print the order</button>
+		</div>
+
+		<div>
+			<br>
+			<button class="btn btn-secondary"><a href="home.html">GO BACK</a></button>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

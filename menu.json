@@ -1,0 +1,570 @@
+[
+    {
+        "tamil": "சாம்பார்",
+        "english": "SAMBAR"
+    },
+    {
+        "tamil": "வத்த குழம்பு (மனதக்களி)",
+        "english": "VATHA KUZHAMBU"
+    },
+    {
+        "tamil": "மிளகு ரசம்",
+        "english": "MILAGU RASAM"
+    },
+    {
+        "tamil": "மோர்",
+        "english": "MOAR"
+    },
+    {
+        "tamil": "கத்திரிக்கா தால்சா",
+        "english": "KATHIRIKA DALSA"
+    },
+    {
+        "tamil": "வெஜ் குருமா",
+        "english": "VEG KURMA"
+    },
+    {
+        "tamil": "முருங்கை சாம்பார்",
+        "english": "MURUNGAKKAI SAMBAR"
+    },
+    {
+        "tamil": "தயிர்",
+        "english": "TAIR"
+    },
+    {
+        "tamil": "கார குழம்பு (வெண்டைக்காய்)",
+        "english": "KARA KUZHAMBU ( VENDAKKAI )"
+    },
+    {
+        "tamil": "ரசம்",
+        "english": "RASAM"
+    },
+    {
+        "tamil": "வடகறி",
+        "english": "VADA CURRY"
+    },
+    {
+        "tamil": "தக்காளி குருமா",
+        "english": "THAKKALI KURMA"
+    },
+    {
+        "tamil": "உருளை மசாலா",
+        "english": "URULAI MASALA"
+    },
+    {
+        "tamil": "சென்னா மசாலா",
+        "english": "CHENNA MASALA"
+    },
+    {
+        "tamil": "சுண்டல் குருமா",
+        "english": "SUNDAL KURMA"
+    },
+    {
+        "tamil": "மினி இட்லி சாம்பார்",
+        "english": "MINI IDLI SAMBAR"
+    },
+    {
+        "tamil": "சில்லி பரோட்டா",
+        "english": "CHILLI PAROTTA"
+    },
+    {
+        "tamil": "பன்னீர் பட்டர் மசாலா",
+        "english": "PANEER BUTTER MASALA"
+    },
+    {
+        "tamil": "மினி ஜாங்கிரி",
+        "english": "MINI JANGIRI"
+    },
+    {
+        "tamil": "குலாப் ஜாமுன்",
+        "english": "GULAB JAMUN"
+    },
+    {
+        "tamil": "கேசரி",
+        "english": "KESARI"
+    },
+    {
+        "tamil": "ஸ்வீட் பச்சிடி",
+        "english": "SWEET PACHADI"
+    },
+    {
+        "tamil": "காஜு கத்திலி",
+        "english": "KAJU KATLI"
+    },
+    {
+        "tamil": "மினி பாதுஷா",
+        "english": "MINI BADUSHA"
+    },
+    {
+        "tamil": "மால் பூவா",
+        "english": "MAL POVA"
+    },
+    {
+        "tamil": "பிரட் அல்வா",
+        "english": "BREAD ALWA"
+    },
+    {
+        "tamil": "கஜு ரோல்",
+        "english": "KAJU ROLL"
+    },
+    {
+        "tamil": "ரசமலாய்",
+        "english": "RASMALAI"
+    },
+    {
+        "tamil": "ரசகுல்லா",
+        "english": "RASGULLA"
+    },
+    {
+        "tamil": "பைனாப்பிள் புட்டிங்",
+        "english": "PINEAPPLE PUDDING"
+    },
+    {
+        "tamil": "கள்ள உருண்டை",
+        "english": "KADALAI URUNDAI"
+    },
+    {
+        "tamil": "ஸ்ரீவில்லி புத்தூர் கோவா ஸ்வீட்",
+        "english": "SRIVILLI PUTHUR KOVA SWEET"
+    },
+    {
+        "tamil": "கேவர் ஸ்வீட்",
+        "english": "GAVAR SWEET"
+    },
+    {
+        "tamil": "காசி அல்வா",
+        "english": "KASI ALWA"
+    },
+    {
+        "tamil": "சேமியா பாயசம்",
+        "english": "SEMIYA PAYASAM"
+    },
+    {
+        "tamil": "மலாய் சாண்விச்",
+        "english": "MALAI SANDWICH"
+    },
+    {
+        "tamil": "மக்கன் பீடா",
+        "english": "MAKKAN PEDA"
+    },
+    {
+        "tamil": "இளநீர் பாயசம்",
+        "english": "ELANEER PAYASAM"
+    },
+    {
+        "tamil": "லட்டு",
+        "english": "LADDU"
+    },
+    {
+        "tamil": "பருப்பு நெய்",
+        "english": "PARUPPU NEI"
+    },
+    {
+        "tamil": "பருப்பு போளி",
+        "english": "PARUPPU POLI"
+    },
+    {
+        "tamil": "சிறுபருப்பு பாயசம்",
+        "english": "SIRU PARUPPU PAYASAM"
+    },
+    {
+        "tamil": "டைரி புரூட் பர்பி",
+        "english": "DRY FRUIT BURFI"
+    },
+    {
+        "tamil": "ரவா இட்லி",
+        "english": "RAVA IDLI"
+    },
+    {
+        "tamil": "தினை பொங்கல்",
+        "english": "THINALI PONGAI"
+    },
+    {
+        "tamil": "வெஜ் ஊத்தாப்பம்",
+        "english": "VEG UTHAPPAM"
+    },
+    {
+        "tamil": "இட்லி",
+        "english": "IDLY"
+    },
+    {
+        "tamil": "வெண் பொங்கல்",
+        "english": "VEN PONGAL"
+    },
+    {
+        "tamil": "சப்பாத்தி",
+        "english": "CHAPATHI"
+    },
+    {
+        "tamil": "சம்பா ரவை உப்புமா",
+        "english": "SAMBA RAVAI UPPMA"
+    },
+    {
+        "tamil": "பொடி தோசை",
+        "english": "PODI DOSAI"
+    },
+    {
+        "tamil": "மல்லிபூ இட்லி",
+        "english": "MALIPO IDLY"
+    },
+    {
+        "tamil": "மசால் தோசை",
+        "english": "MASALA DOSA"
+    },
+    {
+        "tamil": "மினி சோளா பூரி",
+        "english": "MINI CHOLA PURI"
+    },
+    {
+        "tamil": "இடியாப்பம்",
+        "english": "IDIYAPPAM"
+    },
+    {
+        "tamil": "ஆனியன் ஊத்தாப்பம்",
+        "english": "ONION UTHAPPAM"
+    },
+    {
+        "tamil": "சோளா பூரி",
+        "english": "CHOLA PURI"
+    },
+    {
+        "tamil": "பெங்களூரு இட்லி",
+        "english": "BENGALURU IDLY"
+    },
+    {
+        "tamil": "பரோட்டா",
+        "english": "PAROOTA"
+    },
+    {
+        "tamil": "தட்டு இட்லி",
+        "english": "THATTU IDLY"
+    },
+    {
+        "tamil": "ருமானி ரோட்டி",
+        "english": "RUMALI ROTI"
+    },
+    {
+        "tamil": "பிளையின்",
+        "english": "தோசை"
+    },
+    {
+        "tamil": "உருளை பட்டாணி வறுவல்",
+        "english": "URULAI PATTANI VARUVAL"
+    },
+    {
+        "tamil": "தேசிய பொரியல்",
+        "english": "NATIONAL PORIYAL"
+    },
+    {
+        "tamil": "உருளை டோஸ்ட்",
+        "english": "URULAI TOAST"
+    },
+    {
+        "tamil": "வெஜ் பொரியல்",
+        "english": "VEG PORIYAL"
+    },
+    {
+        "tamil": "மலபார் அவியல்",
+        "english": "MALABAR AVIAL"
+    },
+    {
+        "tamil": "மோர் மிளகாய்",
+        "english": "MOR MILAGAI"
+    },
+    {
+        "tamil": "கேரட் பீன்ஸ் பொரியல்",
+        "english": "CARROT BEANS PORIYAL"
+    },
+    {
+        "tamil": "காலிபிளவர் சென்ன பொரியல்",
+        "english": "CAULIFLOWER CHENNA PORIYAL"
+    },
+    {
+        "tamil": "வாழைக்காய் பொரியல்",
+        "english": "VAZAKAI PORIYAL"
+    },
+    {
+        "tamil": ".கோஸ் கூட்டு",
+        "english": "GOOSE KUTU"
+    },
+    {
+        "tamil": "வைட் புலாவ்",
+        "english": "WHITE PULAV"
+    },
+    {
+        "tamil": "வெள்ளை சாதம்",
+        "english": "WHITE RICE"
+    },
+    {
+        "tamil": "வெஜ் பிரியாணி",
+        "english": "VEG BIRYANI"
+    },
+    {
+        "tamil": "பலா காய் பிரியாணி",
+        "english": "PALAKAI BIRYANI"
+    },
+    {
+        "tamil": "காளான்",
+        "english": "பிரியாணி"
+    },
+    {
+        "tamil": "பிஸிபேளாபாத்",
+        "english": "BISIBELEBATH"
+    },
+    {
+        "tamil": "பகலா பாத்",
+        "english": "BAGALABATH"
+    },
+    {
+        "tamil": "கருவேப்பிலை சாதம்",
+        "english": "KARUVEPILAI SADAM"
+    },
+    {
+        "tamil": "ரசம் வங்கி",
+        "english": "RASAM VANGI"
+    },
+    {
+        "tamil": "தக்காளி சாதம்",
+        "english": "THAKALI SADAM"
+    },
+    {
+        "tamil": "தேங்காய் சட்னி",
+        "english": "COCONUT CHUTNEY"
+    },
+    {
+        "tamil": "கார சட்னி",
+        "english": "KARA CHUTNEY"
+    },
+    {
+        "tamil": "வேர்க்கடலை சட்னி",
+        "english": "VERKADALAI CHUTNEY"
+    },
+    {
+        "tamil": "புதினா சட்னி",
+        "english": "PUDINA CHUTNEY"
+    },
+    {
+        "tamil": "மலபார் அவியல்",
+        "english": "MALABAR AVAIYAL"
+    },
+    {
+        "tamil": "கருப்பு கடலை கறி",
+        "english": "KARUPU KADALAI CURRY"
+    },
+    {
+        "tamil": "தக்காளி சாஸ்",
+        "english": "TOMATO CHUTNEY"
+    },
+    {
+        "tamil": "மெதுவடை",
+        "english": "MEDU VADA"
+    },
+    {
+        "tamil": "ஸ்பெஷல் வடை",
+        "english": "SPECIAL VADAI"
+    },
+    {
+        "tamil": "மைசூர் போண்டா",
+        "english": "MYSORE BONDA"
+    },
+    {
+        "tamil": "வெஜ் கட்லெட்",
+        "english": "VEG CUTLET"
+    },
+    {
+        "tamil": "வெஜ் சூப்",
+        "english": "VEG SOUP"
+    },
+    {
+        "tamil": "காலிஃபிளவர் 65",
+        "english": "CAULIFLOWER 65"
+    },
+    {
+        "tamil": "பக்கோடா",
+        "english": "PAKODA"
+    },
+    {
+        "tamil": "உருளை சிப்ஸ்",
+        "english": "POTATO CHIPS"
+    },
+    {
+        "tamil": "கீரை வடை",
+        "english": "KEERAI VADAI"
+    },
+    {
+        "tamil": "பன்னீர் டிக்கா",
+        "english": "PANEER TIKKA"
+    },
+    {
+        "tamil": "கருணைக்கிழங்கு சாப்ஸ்",
+        "english": "KARUNAI ZANGU CHOPS"
+    },
+    {
+        "tamil": "காபி",
+        "english": "COFFEE"
+    },
+    {
+        "tamil": "பெட் காபி (காலை 05:00)",
+        "english": "BED COFFEE"
+    },
+    {
+        "tamil": "பில்டர் காபி கவுண்டர்",
+        "english": "FILTER COFFEE COUNTER"
+    },
+    {
+        "tamil": "பாதம் கீர்",
+        "english": "BADAM KHEER"
+    },
+    {
+        "tamil": "மினரல் வாட்டர் பாட்டில்",
+        "english": "MINERAL WATER BOTTLE"
+    },
+    {
+        "tamil": "பேப்பர் ரோல்",
+        "english": "PAPER ROLL"
+    },
+    {
+        "tamil": "தல வாழை இலை",
+        "english": "BANANA LEAF"
+    },
+    {
+        "tamil": "பரிமாறுதல்",
+        "english": "SERVICE"
+    },
+    {
+        "tamil": "ஆனியன் தயிர் பச்சடி",
+        "english": "ONION THAYIR PACHADI"
+    },
+    {
+        "tamil": "அப்பலம் பூ",
+        "english": "APPALAM PO"
+    },
+    {
+        "tamil": "மாங்காய் ஊறுகாய்",
+        "english": "MANGO PICKLE"
+    },
+    {
+        "tamil": "சிறு பருப்பு பாயசம்",
+        "english": "MOONG DAL PAYASAM"
+    },
+    {
+        "tamil": "கோங்குரா பச்சிடி",
+        "english": "GONGURA PACHADI"
+    },
+    {
+        "tamil": "இட்லி பொடி",
+        "english": "IDLI PODI"
+    },
+    {
+        "tamil": "ஆந்திரா பருப்பு பொடி",
+        "english": "ANDHRA PARU PODI"
+    },
+    {
+        "tamil": "ஆனியன் வெள்ளரி ரைத்தா",
+        "english": "Onion Cucumber Raita"
+    },
+    {
+        "tamil": "ஐஸ்கிரீம் (வெண்ணிலா / ஸ்ட்ராபெரி)",
+        "english": "ICE CREAM (VENNILA / STRAWBERRY/ABUKATTA)"
+    },
+    {
+        "tamil": "பழ சாலட்",
+        "english": "FRUIT SALAD"
+    },
+    {
+        "tamil": "பீடா",
+        "english": "BEEDA"
+    },
+    {
+        "tamil": "வாழை பழம்",
+        "english": "BANANA"
+    },
+    {
+        "tamil": "அபுகட்டா",
+        "english": "ABU GATTA"
+    },
+    {
+        "tamil": "வரவேற்பு பெண்கள்",
+        "english": "WELCOME GIRLS"
+    },
+    {
+        "tamil": "ஸ்கூபிங்",
+        "english": "SCOOPING"
+    },
+    {
+        "tamil": "சஃபாரி",
+        "english": "SAFARI"
+    },
+    {
+        "tamil": "மிக்ஸ்டர்",
+        "english": "MIXTURE"
+    },
+    {
+        "tamil": "கராசேவ்",
+        "english": "KARASEV"
+    },
+    {
+        "tamil": "மசாலா பொறி",
+        "english": "MASALA PORI"
+    },
+    {
+        "tamil": "காபி",
+        "english": "COFFEE"
+    },
+    {
+        "tamil": "சாக்லேட்",
+        "english": "CHOCOLATE"
+    },
+    {
+        "tamil": "மெஹந்தி",
+        "english": "MEHNDI"
+    },
+    {
+        "tamil": "டாட்டூ",
+        "english": "LADDU"
+    },
+    {
+        "tamil": "வளையல்கள்",
+        "english": "BANGLES"
+    },
+    {
+        "tamil": "ஆரத்தி தட்டு",
+        "english": "AARTHI THATU"
+    },
+    {
+        "tamil": "பாப்கான்",
+        "english": "POP CORN"
+    },
+    {
+        "tamil": "பஞ்சு மிட்டாய்",
+        "english": "COTTON CANDY"
+    },
+    {
+        "tamil": "மசாலா வேர்க்கடலை",
+        "english": "MASALA VERKADALAI"
+    },
+    {
+        "tamil": "காலை உணவு",
+        "english": "MORNING TIFFIN"
+    },
+    {
+        "tamil": "இரவு உணவு",
+        "english": "NIGHT TIFFIN/DINNER"
+    },
+    {
+        "tamil": "மதிய உணவு",
+        "english": "AFTERNOON LUNCH"
+    },
+    {
+        "tamil": "டிபன்",
+        "english": "TIFFIN"
+    },
+    {
+        "tamil": "டின்னர்",
+        "english": "DINNER"
+    },
+    {
+        "tamil": "ஸ்னாக்ஸ",
+        "english": "SNACKS"
+    }
+]

@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        * {
+            -webkit-print-color-adjust: exact !important;
+            color-adjust: exact !important;
+        }
+
+        body {
+            background: url("template.jpeg") no-repeat center center scroll !important;
+            background-size: 100% 100% !important;
+        }
+        h2{
+            color: black;
+            padding-top: 20%;
+            padding-left: 25%;
+            align-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: medium;
+        }
+
+        .container {
+            padding-top: 10%;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-bottom: 10%;
+            align-content: center;
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 900px) {
+            .container {
+                padding-top: 150px;
+                align-content: center;
+            }
+        }
+        @media screen and (max-width: 1000px)  and (min-width: 1200px) {
+            .container {
+                padding-top: 20%;
+                align-content: center;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #FFD700;
+        }
+
+        .active1 {
+            background-color:#FF4500;
+        }
+        .active2 {
+            background-color: #FFA500;
+        }
+    </style>
+
+</head>
+
+<body>
+   
+    <div class="container">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2> Click on the particular item category to list your customer order.</h2>
+        <ul>
+            <li><a class="active1" href="dinner.html">DINNER AND STALL ITEMS</a></li>
+            <li><a class="active2" href="tiffin.html">TIFFIN</a></li>
+            <li><a class="active1" href="eve_tiffin.html">EVENING TIFFIN</a></li>
+            <li><a class="active2" href="coconut.html">COCONUT BAG</a></li>
+            <li><a class="active1" href="laddu.html">SEER LADDU</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

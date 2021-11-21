@@ -1,0 +1,202 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="index.js"></script>
+    <script src="dropdown.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact !important;
+            }
+
+            .print-container,
+            .print-container * {
+                visibility: visible;
+
+            }
+
+            @page {
+                size: A4;
+                size: auto;
+            }
+        }
+
+        * {
+            -webkit-print-color-adjust: exact !important;
+            color-adjust: exact !important;
+        }
+
+
+        body {
+            background: url("template.jpeg") no-repeat center center scroll !important;
+            background-size: 100% 100% !important;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        body {
+            -webkit-print-color-adjust: exact !important;
+        }
+
+        span {
+            color: green !important;
+            display: inline;
+        }
+
+        .container {
+            padding-top: 48%;
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-bottom: 10%;
+            align-content: center;
+            
+        }
+
+        @media screen and (max-width: 900px) {
+            .container {
+                padding-top: 300px;
+            }
+        }
+
+        #msg1,
+        #msg2,
+        #msg3,
+        #msg4,
+        #msg5,
+        #msg6 {
+            color:red !important;
+        }
+
+        .mem {
+            text-align: center;
+            color: green !important;
+        }
+
+        .sel {
+            display: show;
+        }
+
+        .msg {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body onload="populateSelect()">
+
+    <div class="container">
+
+        <div class="mem print-container">
+            MEMBERS: <input type="text" name="members" id="members" />
+
+        </div>
+
+        <div class="dinner">
+            <br>
+            <span class="print-container din"><b>DINNER</b> </span>
+            <INPUT type="button" class="btn btn-danger" value="Add Row" onclick="addRow('dinner_dataTable')" />
+            <INPUT type="button" value="Delete Row" class="btn btn-primary" onclick="deleteRow('dinner_dataTable')" />
+            <TABLE id="dinner_dataTable" class="table-condensed">
+                <TR>
+                    <TD><INPUT type="checkbox" name="chk" id="dinnerchk" /></TD>
+                    <TD>
+                        <select class="sel sel1">
+                            <option value="12">-- Select --</option>
+                        </select>
+                    </TD>
+                </TR>
+            </TABLE>
+            <div id="msg1" class="print-container"></div>
+            <INPUT type="button" id="button1" class="btn btn-danger" value="submit" onclick="show1()" />
+
+        </div>
+
+        <script>
+            function show1() {
+                // GET THE SELECTED VALUE FROM <select> ELEMENT AND SHOW IT.
+                var ele = document.getElementsByClassName('sel1');
+
+                console.ele
+                console.log(ele)
+                for (var j = 0; j < ele.length; j++) {
+                    element = ele.item(j);
+                    var msg = document.getElementById('msg1');
+                    if (element.options[element.selectedIndex].text.localeCompare("-- Select --") != 0) {
+                        msg.innerHTML = msg.innerHTML + element.options[element.selectedIndex].text + '</br>';
+                    }
+                }
+                var x = document.getElementById('dinner_dataTable');
+                x.style.display = "none";
+
+                document.getElementById("button1").style.display = "none";
+            }
+        </script>
+
+        <div class="stall" id="sel">
+            <br>
+            <span class="print-container"><b>STALL</b> </span>
+            <INPUT type="button" value="Add Row" class="btn btn-danger" onclick="addRow('stall_dataTable')" />
+            <INPUT type="button" value="Delete Row" class="btn btn-primary" onclick="deleteRow('stall_dataTable')" />
+            <TABLE id="stall_dataTable" class="table-condensed">
+                <TR>
+                    <TD><INPUT type="checkbox" name="chk" /></TD>
+                    <TD>
+                        <select class="sel sel2">
+                            <option value="12">-- Select --</option>
+                        </select>
+                    </TD>
+                </TR>
+            </TABLE>
+            <div id="msg2" class="print-container"></div>
+            <INPUT type="button" id="button2" class="btn btn-danger" value="submit" onclick="show2()" />
+
+        </div>
+
+        <script>
+            function show2() {
+                // GET THE SELECTED VALUE FROM <select> ELEMENT AND SHOW IT.
+                var ele = document.getElementsByClassName('sel2');
+                console.ele
+                console.log(ele)
+                for (var j = 0; j < ele.length; j++) {
+                    element = ele.item(j);
+                    var msg = document.getElementById('msg2');
+                    if (element.options[element.selectedIndex].text.localeCompare("-- Select --") != 0) {
+                        msg.innerHTML = msg.innerHTML + element.options[element.selectedIndex].text + '</br>';
+                    }
+                }
+                var x = document.getElementById('stall_dataTable');
+                x.style.display = "none";
+
+                document.getElementById("button2").style.display = "none";
+            }
+        </script>
+
+        <div>
+            <br>
+            <button class="btn btn-warning" onclick="window.print()">Print the order</button>
+        </div>
+
+        <div>
+            <br>
+            <button class="btn btn-secondary"><a href="home.html">GO BACK</a></button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
